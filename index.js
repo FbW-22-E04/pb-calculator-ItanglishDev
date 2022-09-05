@@ -41,6 +41,16 @@ class Calculator {
         return this.x / this.y
     }
 
+    modulation() {
+
+        return this.x % this.y
+    }
+
+    elevate() {
+
+        return this.x ** this.y
+    }
+
 
     //getter
 
