@@ -10,9 +10,9 @@ class Calculator {
         //properties
     }
 
-    ratio(x, y, width) {
-
-        return (`height is ${width} on ratio x:y`)
+    ratio(width) {
+        let height = width * (this.x / this.y)
+        return (`height is ${height}`)
 
     }
 
@@ -51,8 +51,15 @@ class Calculator {
         return this.x ** this.y
     }
 
+    sqrt() {
+
+        return Math.sqrt(this.x)
+    }
+
 
     //getter
 
     //methods
 }
+
+const calculate = new Calculator
