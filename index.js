@@ -10,6 +10,17 @@ class Calculator {
         //properties
     }
 
+    ratio(x, y, width) {
+
+        return (`height is ${width} on ratio x:y`)
+
+    }
+
+    percentage(x, y) {
+
+        return y / 100 * x
+    }
+
 
     //getter
 
