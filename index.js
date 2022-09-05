@@ -21,6 +21,13 @@ class Calculator {
         return y / 100 * x
     }
 
+    add() {
+
+        return this.x + this.y
+    }
+
+
+
 
     //getter
 
